@@ -1,0 +1,386 @@
+body{
+    background-color: antiquewhite;
+    color: black;
+}
+.reset_praim{
+color: inherit;
+text-decoration: none;
+transition: 4s;
+}
+ul li{
+    list-style-type: none;
+
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+button{
+    display: block;
+    border: none;
+    font: inherit;
+    transition: 4s;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+.Cofee_wrap{
+    position: relative;
+    overflow: hidden;
+    padding-top: 13px;
+    background-color: bisque;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_logo{
+    width: 86px;
+    height: 66px;
+}
+.nav_maine{
+    margin: 0 14px 0 auto;
+    font-size: 25px;
+}
+.nav_maine-list{
+    display: flex;
+    gap: 30px;
+}
+.nav_maine-lit{
+   color: black;
+
+}
+.nav_maine-link-selektor{
+    text-decoration: underline;
+    cursor: default;
+}
+.cart-reset{
+    position: relative;
+    width: 18px;
+    height: 25px ;
+    padding-right: 10px;
+    background: url(img/svg/Group_15.svg) 0%;
+}
+.cofee_section{
+position: relative;
+padding: 243px 18px;
+}
+.cofee{
+    max-width: 589px;
+
+}
+.section_title{
+    position: relative;
+    padding-right: 40px;
+    font-size: 25px;
+    font-weight: 400;
+
+}   
+.cofee_subtitle{
+    display: block;
+    margin: 0 8px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.cofee_text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 45px;
+    font-size: 25px;
+}
+.reset_praim{
+    display: inline-flex;
+    padding: 15px 25px;
+    color: white;
+    background-color: brown;
+}
+.cofee_img{
+position: absolute;
+width: 763px;
+height: 743px;
+flex-shrink: 0;
+top: 40px ;
+right: -0.5px;
+background: url(/img/svg/cofee_1.svg), 0% 0%/contain no-repeat;
+margin: 0 auto;
+padding: 726;
+}
+.cofee_leaves{
+    position: absolute;
+    content: ;
+    top: 0;
+    right: 0;
+    width:307px;
+    height: 485px;
+    transform: rotate(-11);
+    background: url(img/svg/Leaves_right.svg) 100% 0%/contain no-repeat;
+}
+.cofee_leaves-left{
+    position: absolute;
+    content: ;
+    bottom: 0;
+    left: 0;
+    width:261px;
+    height: 411px;
+    transform: rotate(179);
+    flex-shrink: 0;
+    background: url(img/svg/leaves_left.svg) 0% 100%/contain no-repeat;
+}
+
+/* About us*/
+
+.about_section{
+    padding: 125px 80px;
+
+}
+ .about_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+ }
+ .about_img{
+    width: 50%;
+ }
+ .about{
+    max-width: 570px;
+ }
+ .section_title{
+    display: block;
+    font-size: 35px;
+    font-weight: 600;
+ }
+ .section_subtitle{
+    display: block;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-transform: capitalize;
+ }
+ .about_text{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 35px;
+ }
+ /*Shop*/
+
+ .Shop_section{
+    padding-bottom: 120px;
+    text-align: center;
+
+ }
+ .Shop_subtitle{
+    margin: 2px 0 44px;
+
+ }
+ .Shop_wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+ }
+ .Shop_img{
+    width:270px ;
+    height: 300px;
+ }
+ .Shop_name{
+    display: block;
+    margin: 20px 0 10px;
+    font-size: 25px;
+ }
+ .Shop_price{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+ }
+ .Shop_reset{
+    margin: 25px auto 0;
+    padding: 15px 25px;
+    border: 1px solid #3D3017;
+    color: black;
+    text-transform: capitalize;
+ }
+ 
+ 
+ /*Willanese*/
+
+ .Willanese_section{
+    padding: 100px 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    position: relative;
+ }
+ .Willanese{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 78px;
+ }
+ .Willanese_img{
+    width: 408px;
+    height: 414px;
+ }
+ .Willanese_info{
+    position: relative;
+    max-width: 607px;
+    padding-top: 83px ;
+    text-align: center;
+ }
+ .images_t{
+    position: absolute;
+    content: ;
+    top: 0;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%);
+    width: 58px;
+    height: 43,5px;
+    background:url(/img/svg/img_7.svg) 50% 100% no-repeat;
+ }
+ .Willanese_text{
+    font-size: 25px;
+    margin-bottom: 17px;
+    line-height: 38px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .Willanese_name{
+    display: block;
+    font-size: 30px;
+ }
+ .Willanese_pozition{
+    display: block;
+    font-size: 25px;
+ }
+ .Willanese_reset_L{
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    width: 20px ;
+    height:38px ;
+    background: url(/img/svg/img_left.svg)  0% 100% no-repeat;
+    transform: translate(-50%);
+ }
+ .Willanese_reset_R{
+    left: auto;
+    right: 2px;
+    background: url(/img/svg/Leaves_right.svg) 0%;
+   
+ }
+
+  /*follow*/
+
+ .Follow_section{
+   padding: 120px;
+   text-align: center;
+ }
+ .follow_subtitle{
+   margin: 2px 4px;
+ }
+ .Follow{
+   display: inline;
+   justify-content: space-between;
+   gap: 30px;
+ }
+
+ /*fresh*/
+
+ .Fresh_section{
+   padding-bottom: 120px;
+  
+   
+ }
+ .fresh_wrap{
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+   align-items: center;
+
+ }
+
+ .fresh_img{
+   width: 50%;
+ }
+ .fresh_subtitle{
+   margin: 24px 0 37px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 25px;
+ }
+ .fresh_text{
+   font-size: 25px;
+    margin-bottom: 17px;
+    line-height: 38px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .fresh_form{
+   display: flex;
+   justify-content: space-between;
+   padding:5px ;
+
+ }
+ .fresh_form_input{
+   padding: 15px;
+   background-color: transparent;
+   
+ }
+ .rub_img{
+   width: 53px;
+   height: 33px;
+   color: black;
+   background:brown url(/img/svg/sms_1.svg) 50% 26px 20px no-repeat;
+   
+
+ }
+ .fresh_form_input::placeholder{
+   color: black;
+ }
+ .footer_z{
+   width: 86px;
+    height: 66px;
+ }
+
+ /*footer*/
+
+ .footer_section{
+   padding-top: 80px;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: rgba(204, 183, 167, 0.25);
+ }
+ .Latest_wrap{
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+
+ }
+.latest_img{
+   width: 86px;
+    height: 66px;
+}
+.latest_info_reset{
+   max-width: 449px;
+   margin: 25px 0;
+}
+.latest_ikon{
+   display: flex;
+   gap: 10px;
+   
+}
+.latest_nav_wrap{
+   display: flex;
+   justify-content: space-between;
+   gap: 75px;
+}
+.latest_title{
+color: #3D3017;
+font-size: 18px;
+margin-bottom: 15px;
+}
+.latest_nav_link{
+   margin-bottom: 10px;
+}
+
+
